@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tarefas",
+      "handler": "tarefas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tarefas/count",
+      "handler": "tarefas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tarefas/:id",
+      "handler": "tarefas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tarefas",
+      "handler": "tarefas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tarefas/:id",
+      "handler": "tarefas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tarefas/:id",
+      "handler": "tarefas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

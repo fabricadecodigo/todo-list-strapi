@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tarefas",
+  "info": {
+    "name": "Tarefas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "private": false,
+      "required": true
+    },
+    "Descricao": {
+      "type": "text",
+      "required": false
+    },
+    "Concluido": {
+      "type": "boolean"
+    }
+  }
+}
